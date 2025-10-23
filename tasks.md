@@ -25,3 +25,27 @@ by incorporating the automatic feature extraction capability
 of CNN. "
 
 https://www.youtube.com/watch?v=P84OW5GovBE - CNN, RNN, LSTM
+
+# 23 - Oct - 2025
+Limitations discussed yesterday:
+- Classical ML techniques
+    - they depend on hand-constructed features instead of learning automatically
+    - we will use hand-extracted (engineered) features, but the NN will learn features on its own
+    - 3D CNN only works for a few frames - look into RNN, LSTM, Transformer
+    - most papers only consider one frame at a time, we’ll use a time-based architecture
+- we need datasets
+    - our dataset
+    - a standardized dataset
+    - maybe one other dataset
+
+Paper title: "Research on human movements push up counter based on media-pipe artificial intelligence"
+Summary:
+- uses mediapipe, data from 2 cameras at a front and side profile, and logic rules pertaining to good pushup form (angles, distances between body parts) in order to classify pushups.
+- They use a Random Forest classifier to assess the accuracy of their method. It is unclear how that is done.
+
+Limitations:
+- Dataset is robust for a narrow task. 480,000 samples gathered from 50 videos. However, videos gathered only represent two angles - the front and side profiles. more videos including more angles would make the dataset more robust. I'm also unsure why they need a dataset, as the primary mode of classification seems to come from logic rules, not ML.
+- Random Forest is used as a classifier. I don't know why people are still using classical ML instead of Neural Networks.
+- Logic-based implementation. Assumes that Mediapipe will always return correct results. Not effective for noisy data, or cheating prevention.
+- Uses data from two cameras to predict classes. Most users of an app like this will not have two cameras available. can we achieve the same results with one camera?
+
