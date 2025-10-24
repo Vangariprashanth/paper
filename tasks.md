@@ -5,6 +5,18 @@
 3. Read a paper and summarize
 4. draft the paper
 
+# 23 - Oct -2025
+
+1. Collect the dataset from the internet
+2. finalize the dataset from the internet
+3. Draft our automated labeler
+4. Start writing about the dataset in the draft
+5. Write about the abstract
+
+# 23- Oct-2025
+
+1. I will work on Introduction, Literature review
+
 # Notes
 
 https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10013431
@@ -25,3 +37,18 @@ by incorporating the automatic feature extraction capability
 of CNN. "
 
 https://www.youtube.com/watch?v=P84OW5GovBE - CNN, RNN, LSTM
+
+# Dataset Collection
+
+1. https://dl.acm.org/doi/10.1145/3577530.3577534?utm_source=chatgpt.com
+2. https://universe.roboflow.com/adrian-lachowicz/push-ups-counter?utm_source=chatgpt.com
+3. https://www.kaggle.com/datasets/mohamadashrafsalama/pushup?utm_source=chatgpt.com
+4. https://arxiv.org/html/2411.11548v1?utm_source=chatgpt.com
+5. https://www.kaggle.com/datasets/shoreefuddin/pushup-exercise?utm_source=chatgpt.com
+   - Looks important
+6. https://www.crcv.ucf.edu/research/data-sets/ucf101/
+   - Important but need our data preprocessor
+7. https://www.kaggle.com/datasets/hasyimabdillah/workoutfitness-video
+8. https://github.com/andrebert/body-weight-exercises
+9. https://developers.google.com/ml-kit/vision/pose-detection/classifying-poses
+10. https://github.com/NetoPedro/Deep-Learning-Push-Up-Counter
