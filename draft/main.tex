@@ -1,0 +1,40 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+
+\title{Vangari-Ruszala-Paper}
+\author{Prashanth Vangari, Gabe Ruszala}
+\date{October 2025}
+
+\begin{document}
+
+\maketitle
+
+\section{Planning}
+\textbf{Technical Challenges:}
+\begin{itemize}
+    \item angle-based pushup counters are not robust across various angles and body sizes. it is very difficult to find a "one size fits all" set of logic rules that will accurately count pushups for all people at all positions relative to the camera without sacrificing precision. Furthermore, Mediapipe sometimes returns noisy and/or inaccurate data that can interfere with your logic rules. Furthermore, logic rules cannot prevent users from cheating.
+    \item No proper data set for the task at hand. Most datasets are not robust enough (not enough videos, not the correct angles, pushup speed not necessarily evenly distributed/slow enough for there to be a robust set of frames produced, etc.)
+    \item Manual labeling is a huge pain. My previous strategy, where I split videos in a video editor according to their classes, was imprecise, time consuming, and difficult to maintain. I created a software that automatically labels with better-than-human precision and decreases overall time spent labeling by orders of magnitude.
+\end{itemize}
+\\
+\textbf{Limitations of other Papers:}
+\begin{itemize}
+    \item Angle-based
+    \item ineffective Classical-ML algorithms
+    \item ineffective NN architectures
+    \item NN is not spatio-temporal
+    \item no feature engineering
+    \item Dataset is not robust (not evenly distributed, no noisy data, etc.)
+    \item some implementations use more than one camera
+    \item Not optimized for mobile devices
+    \item model only detects up and down, not up-mid-down or an even more granular set of classes.
+\end{itemize}
+\\
+\textbf{What's the goal of our paper?}\\
+To create the most effective mobile app pushup counter in existence?
+
+\section{Abstract}
+
+\section{Introduction}
+
+\end{document}
